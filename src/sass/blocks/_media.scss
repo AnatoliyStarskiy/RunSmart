@@ -42,9 +42,16 @@
         max-width: none;
     }
 
+    .title {
+        &_left {
+            font-size: 20px;
+        }
+    }
+
     .button {
         &_main {
             margin-top: 14px;
+            width: 260px;
         }
     }
     .header {
@@ -77,5 +84,16 @@
             margin-top: 5px;
         }
         
+    }
+
+    .consultation {
+        padding: 50px 20px;
+        &__descr {
+            font-size: 16px;
+        }
+    }
+
+    .feed-form {
+        width: 260px;
     }
 }

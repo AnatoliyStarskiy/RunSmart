@@ -2,6 +2,7 @@
     .container {
         max-width: 880px;
     }
+
     .catalog {
         &__content {
             justify-content: center;
@@ -19,7 +20,8 @@
             max-width: 215px;
         }
     }
-    .carousel .next, 
+
+    .carousel .next,
     .carousel .prev {
         display: none;
     }
@@ -31,15 +33,18 @@
     .container {
         max-width: 500px;
     }
+
     .header {
         &__official {
             display: none;
         }
     }
+
     .advantages {
         &__wrapper {
             flex-direction: column;
         }
+
         &__item {
             margin-top: 30px;
         }
@@ -63,41 +68,50 @@
             width: 260px;
         }
     }
+
     .header {
         flex-direction: column;
+
         &__contacts {
             margin-top: 20px;
         }
     }
+
     .promo {
         padding: 10px 32px;
+
         &__wrapper {
             margin-top: 40px;
-            align-items:center;
+            align-items: center;
         }
+
         &__header {
             font-size: 22px;
         }
+
         &__subheader {
             font-size: 16px;
         }
+
         &__icons {
             width: 300px;
             margin-top: 30px;
             flex-direction: column;
             justify-content: center;
-            align-items:center ;
+            align-items: center;
         }
     }
+
     .advantages {
         &__wrapper {
             margin-top: 5px;
         }
-        
+
     }
 
     .consultation {
         padding: 50px 20px;
+
         &__descr {
             font-size: 16px;
         }
@@ -109,7 +123,7 @@
 
     .carousel {
         .tns-item {
-            img{
+            img {
                 max-width: 100%;
             }
         }
@@ -119,16 +133,37 @@
         .title {
             font-size: 25px;
         }
+
         &__tabs {
             margin-top: 35px;
             flex-direction: column;
             padding-left: 0;
         }
+
         &__tab {
             margin-bottom: 10px;
         }
+
         &-item {
             width: 240px;
         }
+    }
+
+    .feedback {
+        padding: 30px;
+
+        .title {
+            font-size: 25px;
+        }
+
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+
+        &__text {
+            margin-top: 40px;
+        } 
     }
 }
